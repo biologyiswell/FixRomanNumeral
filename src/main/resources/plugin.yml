@@ -1,0 +1,9 @@
+name: FixRomanNumeral
+main: io.github.biologyiswell.frn.FRNPlugin
+version: 1.0
+author: biologyiswell
+description: Fix the roman numeral of enchantments that has level bigger than 10.
+
+commands:
+  frn:
+    description: Fix the roman numeral of item that player is holding.
