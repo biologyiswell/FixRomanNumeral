@@ -13,8 +13,8 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
-// @Note I prefer don't use the implement of CommandExecutor to register the commands, but how that I want do this
-// plugin more simplest, then use it.
+// @Note I prefer don't use the implement of CommandExecutor to register commands, but how that I want make a simplest
+// plugin, then use it.
 /**
  * @author biologyiswell
  * @since 1.0
@@ -59,7 +59,8 @@ public class FRNCommand implements CommandExecutor {
 		}
 
 		item.setItemMeta(FRNUtil.fixRomanNumeral(item));
-		player.sendMessage(ChatColor.GREEN + "All enchantments from item has been updated.");
+
+		player.sendMessage(ChatColor.GREEN + "All item enchantments has been updated.");
 		player.playSound(player.getLocation(), Sound.BLOCK_NOTE_BLOCK_PLING, 1f, 1f);
 		return false;
 	}

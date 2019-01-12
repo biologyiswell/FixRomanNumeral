@@ -14,7 +14,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class FRNPlugin extends JavaPlugin {
 
 	// @Note Instance that is used by another classes to can be access the main class of plugin.
-	// That also represents a provide for JavaPlugin method access.
+	// That also represents a provider for JavaPlugin method access.
 	@Getter private static FRNPlugin instance;
 
 	@Override
